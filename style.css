@@ -265,3 +265,109 @@ section {
 .btn-container {
   gap: 1rem;
 }
+
+/* About Section */
+
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.detail-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section_pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.detail-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+  border-bottom: 0.1rem solid;
+  border-bottom-color: rgb(163, 163, 163);
+  padding-bottom: 0.25rem;
+}
+
+.college {
+  border-bottom: 0.1rem solid;
+  border-bottom-color: rgb(163, 163, 163);
+  padding-bottom: 0.25rem;
+}
+
+.school {
+  padding-top: 0.25rem;
+}
+
+.education-details {
+  padding-top: 0.25rem;
+}
+
+.education-detail {
+  text-align: left;
+  margin: auto 1rem;
+}
+
+.education-detail-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.education-detail-details1 {
+  position: relative;
+}
+
+.down-right-symbol {
+  position: absolute;
+  top: -13px;
+  left: 0px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.education-detail-details2 {
+  padding-left: 1.2rem;
+  font-weight: 400;
+}
