@@ -176,7 +176,7 @@ section {
   margin: auto 0;
 }
 
-.section_pic-container img {
+.profile-pic {
   border-radius: 50%;
 }
 
@@ -216,6 +216,7 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+  align-self: center;
 }
 
 /* Buttons */
@@ -289,6 +290,13 @@ section {
 }
 
 .about-pic {
+  display: flex;
+  height: 450px;
+  margin: auto 0;
+}
+
+.about-pic,
+img {
   border-radius: 2rem;
 }
 
@@ -311,12 +319,6 @@ section {
 .section-container {
   gap: 4rem;
   height: 80%;
-}
-
-.section_pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
 }
 
 .detail-heading {
@@ -370,4 +372,75 @@ section {
 .education-detail-details2 {
   padding-left: 1.2rem;
   font-weight: 400;
+}
+
+/* Experience Section */
+
+#experience {
+  position: relative;
+}
+
+.experience-subtitle {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+article,
+.icon {
+  cursor: default;
+}
+
+.article-container-article {
+  max-width: 8rem;
+}
+
+.article-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.article-container2-detail {
+  width: 105%;
+  justify-content: flex-start;
+}
+
+.article-container-h3 {
+  width: 90%;
+  text-align: left;
+}
+
+.article-container-p {
+  padding-left: 0.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.article-container-a:hover {
+  text-underline-offset: 0.4rem;
 }
