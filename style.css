@@ -190,7 +190,6 @@ section {
 }
 
 .section_text_p1 {
-  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -271,6 +270,11 @@ section {
 
 #about {
   position: relative;
+}
+
+.title2 {
+  font-size: 3rem;
+  text-align: center;
 }
 
 .about-containers {
@@ -519,4 +523,15 @@ article,
 
 .email-icon {
   height: 2.45rem;
+}
+
+/* Footer Section */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
 }
