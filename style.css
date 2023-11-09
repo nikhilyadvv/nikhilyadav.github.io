@@ -433,11 +433,6 @@ article {
   gap: 0.5rem;
 }
 
-article,
-.icon {
-  cursor: default;
-}
-
 .article-container-article {
   max-width: 8rem;
 }
@@ -482,6 +477,7 @@ article,
 }
 
 .project-img {
+  border: rgb(163, 163, 163) 0.1rem solid;
   border-radius: 2rem;
   width: 90%;
   height: 90%;
