@@ -74,6 +74,10 @@
 
 @media screen and (max-width: 600px) {
 
+    nav {
+        height: 14vh;
+    }
+
     #hamburger-nav {
         width: 90%;
         margin-left: 5%;
