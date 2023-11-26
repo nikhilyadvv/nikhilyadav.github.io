@@ -74,6 +74,12 @@
 
 @media screen and (max-width: 600px) {
 
+    #hamburger-nav {
+        width: 90%;
+        margin-left: 5%;
+        justify-content: space-between;
+    }
+
     #contact,
     footer {
         height: 40vh;
@@ -82,6 +88,10 @@
     #profile {
         height: 83vh;
         margin-bottom: 0;
+    }
+
+    .title2 {
+        font-size: 2rem;
     }
 
     article {
@@ -128,12 +138,16 @@
         justify-content: center;
     }
 
+    .section_text_p1 {
+        font-size: 0.85rem;
+    }
+
     .section_text_p2 {
         font-size: 1.25rem;
     }
 
     .title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .text-container {
@@ -146,5 +160,66 @@
 
     .education {
         margin-top: 2rem;
+    }
+
+    .education-detail {
+        margin: auto 0.5rem;
+    }
+
+    .down-right-symbol {
+        font-size: 28px;
+    }
+
+    .education-detail-heading {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .education-detail-heading h3 {
+        font-size: 1rem;
+    }
+
+    .education-detail-heading h5 {
+        font-size: 0.7rem;
+    }
+
+    .education-detail-details2 h4 {
+        font-size: 0.85rem;
+    }
+
+    .education-detail-details2 p {
+        font-size: 0.8rem;
+    }
+
+    .text-container p {
+        font-size: 0.8rem;
+    }
+
+    .article-container-article h3 {
+        font-size: 1rem;
+    }
+
+    .article-container-article p {
+        font-size: 0.75rem;
+    }
+
+    .article-container-h3 h3 {
+        font-size: 1rem;
+    }
+
+    .article-container-h3 p {
+        font-size: 0.75rem;
+    }
+
+    .article-container-h3 a {
+        font-size: 0.9rem;
+    }
+
+    .article-container-p {
+        flex-direction: column;
+    }
+
+    .footer-copyright {
+        font-size: 0.75rem;
     }
 }
